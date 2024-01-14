@@ -29,5 +29,7 @@ Cons :
 - or try via Docker
 
 ```shell
+git clone git@github.com:Neal-C/hello-fsharp.git
+cd hello-fsharp
 docker build -t fsharp:hello . && docker run fsharp:hello -p 8080:8080
 ```
